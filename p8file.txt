@@ -1,0 +1,6 @@
+Hello, this is a test file.
+Each line contains some dummy text.
+This file is used to test file reading programs.
+This is for problem 8
+Write a program to open a file in read only mode, read line by line and display each line as it is read.
+Close the file when end of file is reached.
