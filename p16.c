@@ -1,3 +1,14 @@
+/*
+
+Name: p16.c
+Author: Kapadia Deven
+Description: Write a program to perform mandatory locking.
+            a. Implement write lock
+            b. Implement read lock
+Date: 26 Aug, 2024
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
@@ -13,8 +24,8 @@ int main(){
         exit(1);
     }
 
-    // lock.l_type=F_WRLCK;
-    lock.l_type=F_RDLCK;
+    lock.l_type=F_WRLCK;
+    // lock.l_type=F_RDLCK;
     lock.l_whence=SEEK_SET;
     lock.l_start=0;
     lock.l_len=0;

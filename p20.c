@@ -1,3 +1,12 @@
+/*
+
+Name: p20.c
+Author: Kapadia Deven
+Description: Find out the priority of your running program. Modify the priority with nice command.
+Date: 29 Aug, 2024
+
+*/
+
 #include <stdio.h>
 
 int main() {

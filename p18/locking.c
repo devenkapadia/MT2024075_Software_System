@@ -1,3 +1,16 @@
+/*
+
+Name: p18/dbCreate.c
+Author: Kapadia Deven
+Description: Write a program to perform Record locking.
+            a. Implement write lock
+            b. Implement read lock
+            Create three records in a file. Whenever you access a particular record, first lock it then modify/access
+            to avoid race condition.
+Date: 29 Aug, 2024
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

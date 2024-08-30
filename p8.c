@@ -1,5 +1,12 @@
-// 8. Write a program to open a file in read only mode, read line by line and display each line as it is read.
-// Close the file when end of file is reached.
+/*
+
+Name: p8.c
+Author: Kapadia Deven
+Description: Write a program to open a file in read only mode, read line by line and display each line as it is read.
+            Close the file when end of file is reached.
+Date: 26 Aug, 2024
+
+*/
 
 #include <fcntl.h>
 #include <unistd.h>

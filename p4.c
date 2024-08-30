@@ -1,4 +1,11 @@
-// 4. Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+/*
+
+Name: p4.c
+Author: Kapadia Deven
+Description: Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+Date: 26 Aug, 2024
+
+*/
 
 #include <stdio.h>
 #include <fcntl.h>

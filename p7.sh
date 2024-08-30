@@ -1,4 +1,11 @@
-# 7. Write a program to copy file1 into file2 ($cp file1 file2).
+# /*
+
+# Name: p7.sh
+# Author: Kapadia Deven
+# Description: Write a program to copy file1 into file2 ($cp file1 file2).
+# Date: 26 Aug, 2024
+
+# */
 
 src="$1"
 dst="$2"

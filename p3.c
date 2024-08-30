@@ -1,4 +1,11 @@
-// 3. Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+/*
+
+Name: p3.c
+Author: Kapadia Deven
+Description: Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+Date: 26 Aug, 2024
+
+*/
 
 #include <stdio.h>
 #include <fcntl.h>
