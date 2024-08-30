@@ -18,11 +18,13 @@ int main() {
         return 1;
     }
 
-    write(fd, data1, 10);
+    int o1 = write(fd, data1, 10);
 
     off_t result = lseek(fd, 10, SEEK_CUR);
 
-    write(fd, data2, 10);
+    int o2 = write(fd, data2, 10);
+
+    printf("Value of write command : %d %d,  value of lseek : %ld\n", o1, o2, result);
 
     close(fd);
 
