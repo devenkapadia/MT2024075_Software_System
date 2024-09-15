@@ -9,10 +9,8 @@ void sigalrm_handler(int sig) {
 int main() {
     signal(SIGALRM, sigalrm_handler);
 
-    // Set an alarm to go off in 5 seconds
     alarm(5);
 
-    // Infinite loop to wait for the alarm
     while (1);
 
     return 0;

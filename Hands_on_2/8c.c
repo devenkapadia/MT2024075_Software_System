@@ -10,7 +10,6 @@ void sigfpe_handler(int sig) {
 int main() {
     signal(SIGFPE, sigfpe_handler);
 
-    // Trigger division by zero to cause SIGFPE
     int x = 5 / 0;
 
     return 0;

@@ -10,9 +10,8 @@ void sigsegv_handler(int sig) {
 int main() {
     signal(SIGSEGV, sigsegv_handler);
 
-    // Force a segmentation fault by dereferencing a NULL pointer
     int *ptr = NULL;
-    *ptr = 42;  // This will trigger SIGSEGV
+    *ptr = 42; 
 
     return 0;
 }
