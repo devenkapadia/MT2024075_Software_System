@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : ./17c.c
+Author : Kapadia Deven
+Description : Write a program to execute ls -l | wc.
+            c. use fcntl
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <unistd.h>
 #include <fcntl.h>
 

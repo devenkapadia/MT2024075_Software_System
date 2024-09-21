@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : ./8c.c
+Author : Kapadia Deven
+Description : Write a separate program using signal system call to catch the following signals.
+            c. SIGFPE
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>

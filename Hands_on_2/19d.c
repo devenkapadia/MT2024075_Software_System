@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : ./19d.c
+Author : Kapadia Deven
+Description : 19. Create a FIFO file by
+            d. mknod system call
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 
 /*
 mknod myfifo p

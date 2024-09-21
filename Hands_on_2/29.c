@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : ./29.c
+Author : Kapadia Deven
+Description : Write a program to remove the message queue.
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/ipc.h>

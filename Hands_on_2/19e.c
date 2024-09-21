@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : ./19e.c
+Author : Kapadia Deven
+Description : 19. Create a FIFO file by
+            e. mkfifo library function
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <sys/stat.h>
 #include <stdio.h>
 #include <stdlib.h>

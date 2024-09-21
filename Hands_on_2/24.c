@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : ./24.c
+Author : Kapadia Deven
+Description : Write a program to create a message queue and print the key and message queue id.
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/ipc.h>

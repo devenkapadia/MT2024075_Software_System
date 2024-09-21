@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : ./8b.c
+Author : Kapadia Deven
+Description : Write a separate program using signal system call to catch the following signals.
+            b. SIGINT
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <signal.h>
 

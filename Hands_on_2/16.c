@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : ./16.c
+Author : Kapadia Deven
+Description : Write a program to send and receive data from parent to child vice versa. Use two way
+            communication.
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>

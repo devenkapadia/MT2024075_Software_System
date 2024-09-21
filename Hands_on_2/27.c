@@ -1,3 +1,14 @@
+/*
+============================================================================
+Name : ./27.c
+Author : Kapadia Deven
+Description : Write a program to receive messages from the message queue.
+            a. with 0 as a flag
+            b. with IPC_NOWAIT as a flag
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/ipc.h>

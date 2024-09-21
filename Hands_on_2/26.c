@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : ./26.c
+Author : Kapadia Deven
+Description : Write a program to send messages to the message queue. Check $ipcs -q
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

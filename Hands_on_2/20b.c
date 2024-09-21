@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : ./20b.c
+Author : Kapadia Deven
+Description : Write two programs so that both can communicate by FIFO -Use one way communication.
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 // reader.c
 #include <stdio.h>
 #include <stdlib.h>

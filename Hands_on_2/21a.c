@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : ./21a.c
+Author : Kapadia Deven
+Description : Write two programs so that both can communicate by FIFO -Use two way communications.
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

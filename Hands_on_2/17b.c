@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : ./17b.c
+Author : Kapadia Deven
+Description : Write a program to execute ls -l | wc.
+            b. use dup2
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <unistd.h>
 
 int main() {

@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : ./6.c
+Author : Kapadia Deven
+Description : Write a simple program to create three threads.
+Date: 20th Sep, 2024.
+============================================================================
+*/
+
 #include <pthread.h>
 #include <stdio.h>
 
